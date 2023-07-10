@@ -1,0 +1,14 @@
+{
+    "name": "com.ncat.excel2json.runtime",
+    "rootNamespace": "NCat.Excel2Json",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
