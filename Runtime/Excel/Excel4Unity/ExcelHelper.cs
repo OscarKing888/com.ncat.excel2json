@@ -21,7 +21,7 @@ public class ExcelHelper
         }
         catch (System.Exception ex)
         {
-            UnityEditor.EditorUtility.DisplayDialog("Error", "Excel file is open, close and retry!\r\n" + path, "OK", "Cancel");
+            UnityEditor.EditorUtility.DisplayDialog("Error", "Excel file is open, close and retry!\r\n" + path, "OK", "");
         }
 
         return null;
