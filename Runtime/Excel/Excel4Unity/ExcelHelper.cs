@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections;
 using OfficeOpenXml;
 using System.IO;
@@ -20,7 +21,7 @@ public class ExcelHelper
         }
         catch (System.Exception ex)
         {
-            NCatUtil.ShowDialog("Error", "Excel file is open, close and retry!\r\n" + path);
+            UnityEditor.EditorUtility.DisplayDialog("Error", "Excel file is open, close and retry!\r\n" + path, "OK", "Cancel");
         }
 
         return null;
